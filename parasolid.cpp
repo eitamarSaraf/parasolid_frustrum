@@ -6,6 +6,7 @@ void initialize_parasolid_frustrum()
     PK_SESSION_frustrum_t fru;
     PK_SESSION_frustrum_o_m(fru);
     fru.fstart = FSTART;
+    fru.fabort = FABORT;
     fru.fstop =  FSTOP;
     fru.fmallo = FMALLO;
     fru.fmfree = FMFREE;

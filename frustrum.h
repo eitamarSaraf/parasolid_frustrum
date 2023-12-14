@@ -14,5 +14,6 @@ extern void FFREAD(const int*, const int*, const int*, char*, int*,
     int*);
 extern void FFWRIT(const int*, const int*, const int*, const char*,
     int*);
-
+extern void FABORT(int*);
+extern int SeekXT(const int, const int, const unsigned int, const unsigned int);
 #endif // !FRUSTRUM_H_INCLUDED
